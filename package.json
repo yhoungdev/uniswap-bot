@@ -1,0 +1,19 @@
+{
+  "name": "swapbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "dandao": "^1.2.3",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
